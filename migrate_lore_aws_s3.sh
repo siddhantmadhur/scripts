@@ -2,7 +2,7 @@
 
 # load .env 
 set -a
-source .env
+source /scripts/.env.public
 set +a
 
 if [[ -z "$LORE_S3_BUCKET" ]]; then
